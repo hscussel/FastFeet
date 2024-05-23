@@ -54,10 +54,11 @@ h1{
 }
 #delivery-icon{
     position: absolute;
-    margin-top: 413%;
+    margin-top: 390%;
     margin-left: 24%;
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 #logout-icon{
     position: absolute;
@@ -65,13 +66,15 @@ h1{
     margin-left: 30%;
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 #gear-icon{
     position: absolute;
-    margin-top: 470%;
+    margin-top: 460%;
     margin-left: 25%;
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 .menu-container{
     position:absolute;
