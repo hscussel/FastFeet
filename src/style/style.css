@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(180deg, #229B6F 0%, #104F38 100%);
+    background: linear-gradient(180deg, #0a7bcc 0%, #032238 100%);
 }
 img{
     width: 185px;
@@ -22,10 +22,10 @@ img{
 }
 #user-icon{
     position: absolute;
-    width: 80px; 
-    height: 80px;
-    margin-top: -7%;
-    margin-left: 5.5%;
+    width: 75px; 
+    height: 75px;
+    margin-top: -6.2%;
+    margin-left: 5.71%;
 }
 h1{
     margin-bottom: 60%;
@@ -33,16 +33,16 @@ h1{
     margin-left: 12%;
     font-weight: bolder;
 }
-.green-text{
-    color: #33E7A6;
+.blue-text{
+    color: #43c7ff;
 }
 .container{
     background: white;
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
-    margin-left: -26%;
-    margin-top: 38%;
+    margin-left: -30%;
+    margin-top: 10%;
 }
 .circle{
     position: absolute;
@@ -50,7 +50,7 @@ h1{
     width: 120px;
     height: 120px; 
     border-radius: 50%;
-    margin-top: -8%;
+    margin-top: -7.5%;
     margin-left: 4.3%;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
@@ -67,10 +67,10 @@ h1{
 }
 
 form input[type="submit"] {
-    margin-top: 2rem;
+    margin-top: 7rem;
     padding: 0.6rem;
     width: 80%;
-    background: linear-gradient(to left, #373737, #33E7A6);
+    background: linear-gradient(to left, #373737, #28A9E1);
     cursor: pointer;
     color: white;
     font-size: 1rem;
@@ -106,5 +106,5 @@ form input[type="password"] {
 
 form input[type="submit"]:hover {
     letter-spacing: 0.5px;
-    background: linear-gradient(to right, #373737, #33E7A6);
+    background: linear-gradient(to right, #373737, #28A9E1);
 }
