@@ -259,7 +259,13 @@ p2{
 #line-6{
     margin-left: 790px;
 }
-
+p3{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 28%;
+    font-weight: 200;
+    font-size: 24px;
+}
 
 
 /* animations */
@@ -267,4 +273,10 @@ p2{
 .contaier-delivery:hover{
     background-color: #2695c5;
     width: 102px;
+}
+#add:hover{
+    background-color: #33E7A6;
+    font-weight: 500;
+    color: white;
+    border: none;
 }

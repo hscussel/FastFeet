@@ -12,24 +12,33 @@
             <nav class="container">
                 <div class="user">
                     <div class="circle"></div>
-                    <img id='user-icon' src="src\img\user-icon.png">
+                    <img id='user-icon' src="src\img\user_icon_white.png">
                     <div class="mini-circle"></div>
                 </div>
-                <img id="users-icon" src="">
-                <img id="delivery-icon" src="src\img\delivery-icon.png">
-                <img id="logout-icon" src="src\img\logout-icon.png">
-                <img id="gear-icon" src="src\img\gear-icon.png">
+                <div class="contaier-delivery" id = 'delivery-i'>
+                    <img id="delivery-icon" src="src\img\encomenda_icon_white.png">
+                    
+                </div>
+                <div class="contaier-delivery" id="delivery-men">
+                    <img id="delivery-men-icon" src="src\img\3143250.png">
+                    
+                </div>
+                <div class="contaier-delivery" id="recipient">
+                    <img id="recipient-icon" src=''>
+                    
+                </div>
+                <div class="contaier-delivery" id="users">
+                    <img id="users-icon" src='src\img\add_user_white.png'>
+                    
+                </div>
             </nav>
+            <div class="container-header"></div>
         </div>
-        <h1>Fast<span class="green-text">FEET</span></h1>
+        <h1>Fast<span class="blue-text">FEET</span></h1>
     </header>
     <main>
         <nav class="menu-containter">
-            <a href="encomendas.html" id="p1">Encomendas</a>
-            <a href="entregadores.html" id="p2">Entregadores</a>
-            <div class="green-line"></div>
-            <a href="destinatarios.html" id="p3">Destinatários</a>
-            <div class="line"></div>
+            <a id="p1">Entregadores</a>
             </nav>
             <div class="icon-research">
                 <img id ='research-icon' src="src\img\icon-research.png">
@@ -37,10 +46,8 @@
         <input type="text" name="research" id="research"
         placeholder ="Pesquise por entregas">
         <div class="data-base">    
-            <button id="add">Adicionar</button>
+            <button id="add">Adicionar Entregador</button>
             <img id="add-icon" src="src\img\add-icon.png.png">
-            <button id="remove">Remover</button>
-            <img id="remove-icon" src="src\img\remove-icon.png">
             <p2 id="p4">Id</p2>
             <div class="line-db" id="line-1"></div>
             <p2 id="p5">Nome</p2>
@@ -52,7 +59,10 @@
             <p2 id="p8">Placa</p2>
             <div class="line-db" id="line-5"></div>
             <p2 id="p9">Status</p2>
+            <div class="line-db" id="line-6"></div>
         </div>
+        <p3>Sem entregadores cadastrados</p3>
     </main>
+    <script src="src\js\href.js"></script>
 </body>
 </html>
