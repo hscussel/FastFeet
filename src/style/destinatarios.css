@@ -410,3 +410,6 @@ button{
     color: white;
     border: none;
 }
+input:focus {
+    outline: none;
+}

@@ -280,3 +280,6 @@ p3{
     color: white;
     border: none;
 }
+input:focus {
+    outline: none;
+}

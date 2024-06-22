@@ -390,3 +390,7 @@ button{
 button:hover{
     background-color: #076CB5;
 }
+
+input:focus {
+    outline: none;
+}
