@@ -288,12 +288,12 @@ p3{
 }
 .containter-cadastro{
     width: 430px;
-    height: 480px;
+    height: 515px;
     background-color: #ffffff;
     border-radius: 5px;
     color: black;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-    margin-top: 10%;
+    margin-top: 6%;
     margin-left: 38%;
 }
 .containter-cadastro h2 {
@@ -301,6 +301,9 @@ p3{
     font-weight: 600;
     text-align: center;
     margin-top: 2%;
+}
+h3{
+    color: transparent;
 }
 label{
     font-size: 18px;

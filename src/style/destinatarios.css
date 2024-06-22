@@ -280,12 +280,12 @@ p3{
 }
 .containter-cadastro{
     width: 430px;
-    height: 480px;
+    height: 580px;
     background-color: #ffffff;
     border-radius: 5px;
     color: black;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-    margin-top: 10%;
+    margin-top: 6%;
     margin-left: 38%;
 }
 .containter-cadastro h2 {
@@ -317,12 +317,12 @@ label{
     margin-left: 5%;
 }
 .input-field-3{
-    margin-left: 50%;
-    margin-top: -12.4%;
+    margin-top: 3%;
+    margin-left: 5%;
 }
 .input-field-4{
-    margin-left: 75%;
-    margin-top: -12.7%;
+    margin-left: 30%;
+    margin-top: -12.2%;
 }
 input{
     border-radius: 5px;
@@ -335,6 +335,9 @@ select{
     background-color: #D9D9D9;
     border-radius: 5px;
     height: 24px;
+}
+h3{
+    color: transparent;
 }
 #name{
     width: 350px;
@@ -365,6 +368,12 @@ select{
 }
 #neighborhood{
     width: 280px;
+}
+#street{
+    width: 350px;
+}
+#number{
+    width: 50px;
 }
 button{
     width: 225px;
