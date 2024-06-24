@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 .container{
     position: fixed;
     width: 102px; 
@@ -27,7 +28,6 @@ h1{
     position: absolute;
     margin-left: 10%;
     margin-top: 1.3%;
-    cursor: pointer;
 }
 .blue-text{
     color: #28A9E1;
@@ -59,6 +59,10 @@ h1{
     margin-top: 180%;
     background-color:transparent;
 }
+#delivery-i{
+    background-color: #fff;
+    border-radius: 5px;
+}
 #delivery-icon{
     position: absolute;
     margin-top: 23%;
@@ -69,9 +73,7 @@ h1{
     z-index: 400;
 }
 #delivery-men{
-    background-color: #fff;
     margin-top: 274%;
-    border-radius: 5px;
 }
 #delivery-men-icon{
     position: absolute;
@@ -107,6 +109,10 @@ h1{
     cursor: pointer;
    
 }
+.menu-container{
+    position:absolute;
+    display: inline;
+}
 a{
     position: absolute;
     margin-right: 10px;
@@ -121,31 +127,6 @@ a{
     font-weight: 500;
     margin-top: 8%;
     font-size: 24px;
-}
-.line{
-    position: absolute;
-    width: 580px; 
-    height: 0px; 
-    border: 2px #D7D7D7 solid;
-    margin-top: 9.5%;
-    margin-left: 9%;
-}
-.green-line{
-    position: absolute;
-    width: 161px; 
-    height: 0px; 
-    border: 2px #33E7A6 solid;
-    margin-top: 9.5%;
-    margin-left: 9%;
-    z-index: 400;
-    margin-left: 22%;
-}
-#p2{
-    margin-left: 23%;
-    color: #33E7A6;
-}
-#p3{
-    margin-left: 36%;
 }
 #research{
     position: absolute;
@@ -171,7 +152,7 @@ input::placeholder{
 }
 
 .data-base{
-    width: 860px;
+    width: 900px;
      height: 53px; 
      background: #076CB5; 
      border-radius: 5px;
@@ -193,7 +174,7 @@ input::placeholder{
     font-weight:400;
     font-size: 14px;
     cursor: pointer;
-    color: #373737;
+    color:#373737;
 }
 #add{
     position: absolute;
@@ -215,6 +196,7 @@ input::placeholder{
     height: 23px;
     cursor: pointer;
 }
+
 input[type='text']{
     padding-top: 0.5cap;
 }
@@ -242,43 +224,42 @@ p2{
     margin-left: 85px;
 }
 #p5{
-    margin-left: 115px;
+    margin-left: 118px;
 }
 #line-2{
-    margin-left: 210px;
-}
-#p6{
     
     margin-left: 250px;
 }
+#p6{
+    
+    margin-left: 290px;
+}
 #line-3{
     
-    margin-left: 370px;
+    margin-left: 430px;
 }
 #p7{
     
-    margin-left: 405px;
+    margin-left: 468px;
 }
 #line-4{
     
-    margin-left: 510px;
+    margin-left: 550px;
 }
 #p8{
     
-    margin-left: 545px;
+    margin-left: 585px;
 }
 #line-5{
     
-    margin-left: 630px;
+    margin-left: 670px;
 }
 #p9{
-    
-    margin-left: 660px;
+    margin-left: 705px;
 }
 #line-6{
-    margin-left: 745px;
+    margin-left: 790px;
 }
-
 p3{
     position: absolute;
     margin-top: 26%;
@@ -313,6 +294,7 @@ label{
     margin-left: 5%;
 }
 .input-field{
+
     margin-top: 3%;
     margin-left: 5%;
 }
@@ -336,7 +318,7 @@ select{
     border-radius: 5px;
     height: 24px;
 }
-#name{
+#entregador, #destinatario{
     width: 350px;
 }
 #password{

@@ -11,15 +11,26 @@
     position: fixed;
     width: 102px; 
     height: 856px; 
-    background: #33E7A6;
+    background: #28A9E1;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 200;
+}
+.container-header{
+    color:transparent;
+    position: fixed;
+    width: 100%;
+    height: 89px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 100;
 }
 h1{
     position: absolute;
     margin-left: 10%;
-    margin-top: 1.5%;
+    margin-top: 1.3%;
+    cursor: pointer;
 }
-.green-text{
-    color: #33E7A6;
+.blue-text{
+    color: #28A9E1;
 }
 
 .circle{
@@ -28,50 +39,73 @@ h1{
     width: 79px;
     height: 79px; 
     border-radius: 50%;
-    margin-left: 9%;
-    margin-top:600%;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-    z-index:200;
-}
-.mini-circle{
-    position: absolute;
-    background-color: #fd3636;
-    width: 20px;
-    height: 20px; 
-    border-radius: 50%;
-    margin-left: 38%;
-    margin-top: 665%;
+    margin-top: 50%;
+    margin-left: 7%;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     z-index:200;
 }
 #user-icon{
     position: absolute;
-    width: 50px;
+    width: 45px;
     height: 50px;
     z-index: 400;
-    margin-left: 24%;
-    margin-top: 612%;
+    margin-left: 24.5%;
+    margin-top: 63%;
 }
-#users-icon{
+.contaier-delivery{
     position: absolute;
-    margin-top: 413%;
-    margin-left: 15%;
-    width: 70px;
-    height: 40px;
-}
-#gear-icon{
-    position: absolute;
-    margin-top: 530%;
-    margin-left: 25%;
-    width: 40px;
-    height: 40px;
+    width: 103px;
+    height: 96px;
+    margin-top: 180%;
+    background-color:transparent;
 }
 #delivery-icon{
     position: absolute;
-    margin-top: 470%;
-    margin-left: 25%;
-    width: 40px;
-    height: 40px;
+    margin-top: 23%;
+    margin-left: 24%;
+    width: 51px;
+    height: 51px;
+    cursor: pointer;
+    z-index: 400;
+}
+#delivery-men{
+    margin-top: 274%;
+}
+#delivery-men-icon{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 24%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    z-index: 400;
+}
+#recipient{
+    margin-top: 368%;
+}
+#recipient-icon{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 24%;
+    width: 51px;
+    height: 51px;
+    cursor: pointer;
+    z-index: 400;
+   
+}
+#users{
+    margin-top: 460%;
+    border-radius: 5px;
+    background-color: #fff;
+}
+#users-icon{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 24%;
+    width: 51px;
+    height: 51px;
+    cursor: pointer;
+   
 }
 .menu-container{
     position:absolute;
@@ -83,37 +117,14 @@ a{
     margin-left: 10%;
     margin-top: 7%;
     font-size: 20px;
-    cursor: pointer;
     text-decoration: none;
-    color: black;
     list-style: none;
 }
-.line{
-    position: absolute;
-    width: 580px; 
-    height: 0px; 
-    border: 2px #D7D7D7 solid;
-    margin-top: 9.5%;
-    margin-left: 9%;
-}
-.green-line{
-    position: absolute;
-    width: 164px; 
-    height: 0px; 
-    border: 2px #33E7A6 solid;
-    margin-top: 9.5%;
-    margin-left: 9%;
-    z-index: 400;
-}
 #p1{
-    color: #33E7A6 ;
+    color: #28A9E1 ;
     font-weight: 500;
-}
-#p2{
-    margin-left: 23%;
-}
-#p3{
-    margin-left: 36%;
+    margin-top: 8%;
+    font-size: 24px;
 }
 #research{
     position: absolute;
@@ -139,37 +150,35 @@ input::placeholder{
 }
 
 .data-base{
-    width: 800px;
-     height: 58px; 
-     background: #D9D9D9; 
+    width: 920px;
+     height: 53px; 
+     background: #076CB5; 
      border-radius: 5px;
      margin-top: 16%;     
      margin-left: 9%;
      position: fixed;
 
 }
-button{
+#add{
     position: fixed;
-    width: 140px;
+    width: 240px;
     height: 30px;
     background: transparent; 
     border-radius: 5px; 
     border: 2px #9E9E9E solid;
     text-decoration: none;
+    color:#373737;
     font-size: large;
     padding-left: 2cap;
     font-weight:400;
     font-size: 14px;
+    cursor: pointer;
 }
 #add{
     position: absolute;
-    margin-top: 2%;
+    margin-top: -7%;
     margin-left: 110%;
-}
-#remove{
-    position: absolute;
-    margin-top: 2%;
-    margin-left: 135%;
+    cursor: pointer;
 }
 #research-icon{
     margin-top: 0.5%;
@@ -180,35 +189,31 @@ button{
 #add-icon{
     position: absolute;
     margin-left: 111.5%;
-    margin-top: 2.4%;
+    margin-top: -6.6%;
     width: 23px;
     height: 23px;
+    cursor: pointer;
 }
-#remove-icon{
-    position: absolute;
-    margin-left: 136.5%;
-    margin-top: 2.5%;
-    width: 20px;
-    height: 20px;
-}
+
 input[type='text']{
     padding-top: 0.5cap;
 }
 p2{
+    color: #fff;
     position: absolute;
     text-align: center;
     display: inline;
     font-weight: medium;
-    margin-top: 16px;
+    margin-top: 14px;
 }
 .line-db{
     position: absolute;
-    width: 46px; 
+    width: 32px; 
     height: 0px; 
     transform: rotate(90deg); 
     transform-origin: 0 0; 
-    border: 1px #909090 solid;
-    margin-top: 5px;
+    border: 1px #bebebe solid;
+    margin-top: 10px;
 }
 #p4{
     margin-left: 33px;
@@ -220,71 +225,65 @@ p2{
     margin-left: 115px;
 }
 #line-2{
-    
-    margin-left: 250px;
+    margin-left: 210px;
 }
 #p6{
     
-    margin-left: 282px;
+    margin-left: 230px;
 }
 #line-3{
     
-    margin-left: 430px;
+    margin-left: 340px;
 }
 #p7{
     
-    margin-left: 465px;
+    margin-left: 375px;
 }
 #line-4{
     
-    margin-left: 550px;
+    margin-left: 450px;
 }
 #p8{
     
-    margin-left: 585px;
+    margin-left: 480px;
 }
 #line-5{
     
-    margin-left: 670px;
+    margin-left: 580px;
 }
 #p9{
     
-    margin-left: 705px;
+    margin-left: 610px;
 }
-
-
+#line-6{
+    margin-left: 710px;
+}
+#p10{
+    margin-left: 740px;
+}
+#line-7{
+    margin-left: 820px;
+}
+p3{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 28%;
+    font-weight: 200;
+    font-size: 24px;
+}
 
 /* animations */
 
-
-#p2::after{
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    bottom: -14px;
-    left: -14px;
-    z-index: 300;
-    transition: 0.5s ease-in-out;
-    border: 2px #D7D7D7 solid;
+.contaier-delivery:hover{
+    background-color: #2695c5;
+    width: 102px;
 }
-#p2:hover::after{
-   width: 120%;
-   border: 2px #33E7A6 solid;
-    
+#add:hover{
+    background-color: #33E7A6;
+    font-weight: 500;
+    color: white;
+    border: none;
 }
-#p3::after{
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    bottom: -14px;
-    left: -14px;
-    z-index: 300;
-    transition: 0.5s ease-in-out;
-    border: 2px #D7D7D7 solid;
-}
-#p3:hover::after{
-   width: 120%;
-   border: 2px #33E7A6 solid;
+input:focus {
+    outline: none;
 }

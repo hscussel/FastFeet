@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style/encomendas.css">
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <nav class="container">
+                <div class="user">
+                    <div class="circle"></div>
+                    <img id='user-icon' src="src\img\user_icon_white.png">
+                    <div class="mini-circle"></div>
+                </div>
+                <div class="contaier-delivery" id = 'delivery-i'>
+                    <img id="delivery-icon" src="src\img\encomenda_icon_blue.png">
+                    
+                </div>
+                <div class="contaier-delivery" id="delivery-men">
+                    <img id="delivery-men-icon" src="src\img\delivery-men-icon-white.png">
+                    
+                </div>
+                <div class="contaier-delivery" id="recipient">
+                    <img id="recipient-icon" src=''>
+                    
+                </div>
+                <div class="contaier-delivery" id="users">
+                    <img id="users-icon" src='src\img\add_user_white.png'>
+                    
+                </div>
+            </nav>
+            <div class="container-header"></div>
+        </div>
+        <h1>Fast<span class="blue-text">FEET</span></h1>
+    </header>
+    <main>
+        <nav class="menu-containter">
+            <a id="p1">Encomendas</a>
+            </nav>
+            <div class="icon-research">
+                <img id ='research-icon' src="src\img\icon-research.png">
+            </div>
+        <input type="text" name="research" id="research"
+        placeholder ="Pesquise por encomendas">
+        <div class="data-base">    
+            <button id="add">Adicionar encomenda</button>
+            <img id="add-icon" src="src\img\add-icon.png.png">
+            <p2 id="p4">Id</p2>
+            <div class="line-db" id="line-1"></div>
+            <p2 id="p5">Entregador</p2>
+            <div class="line-db" id="line-2"></div>
+            <p2 id="p6">Destinatário</p2>
+            <div class="line-db" id="line-3"></div>
+            <p2 id="p7">Itens</p2>
+            <div class="line-db" id="line-4"></div>
+            <p2 id="p8">Data</p2>
+            <div class="line-db" id="line-5"></div>
+            <p2 id="p9">Status</p2>
+            <div class="line-db" id="line-6"></div>
+        </div>
+        <p3>Sem encomendas cadastradas</p3>
+        <div class="continer-new-delivery">
+            <div class></div> 
+        </div>
+        <div id="overlay" class="overlay">
+            <div class="containter-cadastro">
+                <h3>oi</h3>
+                <h2>Cadastrando Encomenda</h2>
+                <form>
+                    <div class="input-field-1">
+                        <label for="entregador">Entregador</label><br>
+                        <select type="entregador" name="entregador" id="entregador">
+                    </div>
+                    <div class="input-field-1">
+                        <label for="destinatario">Destinatário</label><br>
+                        <select type="destinatario" name="destinatario" id="destinatario">
+                    </div>
+                    <div class="input-field-5">
+                        <label for="items">Itens</label><br>
+                        <input type="items" id="items" name="items"
+                            placeholder="Digite os itens da encomenda">
+                    </div>
+                    <div class="input-field">
+                        <label for="data">Data</label><br>
+                        <input id="data" type="date" name="data"
+                                placeholder="Digite o CEP">
+                    </div>
+                  
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+    </main>
+    <script src="src\js\hrefAdmin.js"></script>
+    <script src="src\js\cadastrarAba.js"></script>
+</body>
+</html>

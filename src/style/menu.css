@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container-header{
+    margin-top: -8%;
+    color:transparent;
+    position: fixed;
+    width: 100%;
+    height: 89px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+h1{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: -7%;
+}
+.blue-text{
+    color: #28A9E1;
+}
+p1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #28A9E1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+}
+.container-menu{
+    position: relative;
+    display: flex;
+    width: 262px;
+    height: 212px;
+    background-color: #28A9E1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#encomendas{
+    margin-left: 30%;
+    margin-top: 4%;
+    
+}
+#entregadores{
+    margin-top: -13.3%;
+   margin-left: 54%;
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+#encomendas-icon{
+    margin-top: 15%;
+    margin-left: 30%;
+}
+#destinatarios{
+    margin-top: 2%;
+    margin-left: 30.1%;
+}
+#usuarios{
+    margin-left: 54%;
+    margin-top: -13.3%;
+}
+#users-icon{
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+p2{
+    position: absolute;
+    color: #fff;
+    margin-top: 55%;
+    margin-left: 28%;
+}
+#user{
+    margin-left: 37%;
+}
+
+/* animations */ 
+
+.container-menu:hover{
+    background-color: #076CB5;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
