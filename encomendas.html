@@ -73,16 +73,17 @@
                 <form>
                     <div class="input-field-1">
                         <label for="entregador">Entregador</label><br>
-                        <select type="entregador" name="entregador" id="entregador">
+                        <select type="entregador" name="entregador" id="entregador"></select>
                     </div>
-                    <div class="input-field-1">
+                    <div class="input-field" style="margin-bottom:3%">
                         <label for="entregador">Destinatário</label><br>
-                        <input type="entregador" name="entregador" id="entregador">
+                        <select name="entregador" id="entregador"></select>
                     </div>
-                    <div class="input-field-5">
-                        <label for="items">Itens</label><br>
+                    <label for="items" style="margin-left: 5%;margin-top: 3%">Itens</label><br>
+                    <div class="input-field" style="display:flex; margin-top: 0%; margin-right: 4rem;">
                         <input type="items" id="items" name="items"
                             placeholder="Digite os itens da encomenda">
+                            <button id="button-items" style="margin-top: 0%;">Adicionar</button>
                     </div>
                     <div class="input-field">
                         <label for="data">Data</label><br>

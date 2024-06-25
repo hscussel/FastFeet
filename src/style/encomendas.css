@@ -269,7 +269,7 @@ p3{
 }
 .containter-cadastro{
     width: 430px;
-    height: 515px;
+    height: 450px;
     background-color: #ffffff;
     border-radius: 5px;
     color: black;
@@ -313,6 +313,9 @@ label{
     margin-left: 75%;
     margin-top: -12.7%;
 }
+.input-fiel-5{
+    margin-left: 5%;
+}
 input{
     border-radius: 5px;
     border: none;
@@ -328,17 +331,8 @@ select{
 #entregador, #destinatario{
     width: 350px;
 }
-#password{
-    width: 350px;
-}
-#phone{
-    width: 110px;
-}
-#plate{
-    width: 70px;
-}
-#cpf{
-    width: 110px;
+#items{
+    width: 150vh;
 }
 button{
     width: 225px;
@@ -352,6 +346,12 @@ button{
     background-color: #28A9E1;
     border-radius: 5px;
     color: #fff;
+}
+#button-items{
+    width: 250px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 500;
 }
 .overlay {
     display: none;
