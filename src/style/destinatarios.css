@@ -281,6 +281,13 @@ p3{
     margin-top: 6%;
     margin-left: 38%;
 }
+#quit-icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 25.5%;
+    margin-top: -1.6%;
+}
 .containter-cadastro h2 {
     font-size: 25px;
     font-weight: 600;

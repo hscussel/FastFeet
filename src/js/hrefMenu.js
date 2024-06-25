@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.getElementById('usuarios').addEventListener('click', function() {
-        window.location.href = 'pagina-usuarios.html'; // Substitua pela URL desejada
+        window.location.href = 'users.html'; // Substitua pela URL desejada
     });
 });
