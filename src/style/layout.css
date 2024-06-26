@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.data-base{
+    width: 900px;
+     height: 53px; 
+     background: #D9D9D9; 
+     border-radius: 5px;     
+     position: fixed;
+     margin-left: 2%;
+
+}
+input[type='text']{
+    padding-top: 0.5cap;
+}
+p2{
+    color: black;
+    position: absolute;
+    text-align: center;
+    display: inline;
+    font-weight: medium;
+    margin-top: 14px;
+}
+.line-db{
+    position: absolute;
+    width: 32px; 
+    height: 0px; 
+    transform: rotate(90deg); 
+    transform-origin: 0 0; 
+    border: 1px #bebebe solid;
+    margin-top: 10px;
+}
+#p4{
+    margin-left: 14px;
+}
+#line-1{
+    margin-left: 85px;
+}
+#p5{
+    margin-left: 100px;
+}
+#line-2{
+    
+    margin-left: 250px;
+}
+#p6{
+    
+    margin-left: 265px;
+}
+#line-3{
+    
+    margin-left: 430px;
+}
+#p7{
+    
+    margin-left: 444px;
+}
+#line-4{
+    
+    margin-left: 550px;
+}
+#p8{
+    
+    margin-left: 565px;
+}
+#line-5{
+    
+    margin-left: 670px;
+}
+#p9{
+    margin-left: 685px;
+}
+#line-6{
+    margin-left: 790px;
+}
+.square{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    color: black;
+    margin-left: 685px;
+}
