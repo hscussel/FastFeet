@@ -180,3 +180,40 @@ p2{
 #line-77{
     margin-left: 820px;
 }
+.container-edit{
+    width: 23px;
+    height: 21px;
+    background-color: #fff;
+    margin-left: 90.2%;
+    border-radius: 5px;
+    margin-top: 1.65%;
+}
+.container-remove{
+    width: 23px;
+    height: 21px;
+    background-color:#ffffff;
+    margin-left: 95.5%;
+    border-radius: 5px;
+    margin-top: -2.3%;
+}
+#dif{
+    background-color: #373737;
+}
+img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+   
+}
+#line-dif{
+    margin-left: 868px;
+    margin-top: -2.8%;
+}
+#edit{
+    margin-left: 90.5%;
+    margin-top: -2.2%;
+}
+#remove{
+    margin-left: 95.8%;
+    margin-top: -2.2%;
+}

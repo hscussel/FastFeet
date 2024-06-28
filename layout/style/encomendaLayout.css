@@ -139,3 +139,40 @@ p2{
     margin-top: 10%;
     margin-left: -6%;
 }
+.container-edit{
+    width: 23px;
+    height: 21px;
+    background-color: #fff;
+    margin-left: 89.3%;
+    border-radius: 5px;
+    margin-top: 1.65%;
+}
+.container-remove{
+    width: 23px;
+    height: 21px;
+    background-color:#ffffff;
+    margin-left: 95.5%;
+    border-radius: 5px;
+    margin-top: -2.3%;
+}
+#dif{
+    background-color: #373737;
+}
+img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+   
+}
+#edit{
+    margin-left: 89.5%;
+    margin-top: -2.2%;
+}
+#remove{
+    margin-left: 95.7%;
+    margin-top: -2.2%;
+}
+#line-dif{
+    margin-left: 845px;
+    margin-top: -2.8%;
+}
