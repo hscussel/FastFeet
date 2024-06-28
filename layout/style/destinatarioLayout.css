@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.data-base{
+    width: 920px;
+     height: 53px; 
+     background: #d9d9d9; 
+     border-radius: 5px;
+     position: fixed;
+     margin-left: 2%;
+    z-index: 100;
+}
+p2{
+    color: black;
+    position: absolute;
+    text-align: center;
+    display: inline;
+    font-weight: medium;
+    margin-top: 14px;
+}
+.line-db{
+    position: absolute;
+    width: 32px; 
+    height: 0px; 
+    transform: rotate(90deg); 
+    transform-origin: 0 0; 
+    border: 1px #bebebe solid;
+    margin-top: 10px;
+}
+#p4{
+    margin-left: 15px;
+}
+#line-1{
+    margin-left: 85px;
+}
+#p5{
+    margin-left: 94px;
+}
+#line-2{
+    margin-left: 210px;
+}
+#p6{
+    
+    margin-left: 215px;
+}
+#line-3{
+    
+    margin-left: 340px;
+}
+#p7{
+    
+    margin-left: 350px;
+}
+#line-4{
+    
+    margin-left: 450px;
+}
+#p8{
+    
+    margin-left: 490px;
+}
+#line-5{
+    
+    margin-left: 580px;
+}
+#p9{
+    
+    margin-left: 582px;
+}
+#line-6{
+    margin-left: 710px;
+}
+#p10{
+    margin-left: 720px;
+}
+#line-7{
+    margin-left: 820px;
+}
+.data-base-2{
+    width: 920px;
+     height: 53px; 
+     background: #fff; 
+     border-radius: 5px;
+     position: fixed;
+     margin-left: 2%;
+     margin-top: 3.5%;
+     z-index: 50;
+
+}
+p2{
+    color: black;
+    position: absolute;
+    text-align: center;
+    display: inline;
+    font-weight: medium;
+    margin-top: 14px;
+}
+.line-db1{
+    position: absolute;
+    width: 32px; 
+    height: 0px; 
+    transform: rotate(90deg); 
+    transform-origin: 0 0; 
+    border: 1px #bebebe solid;
+    margin-top: 10px;
+}
+#p4{
+    margin-left: 15px;
+}
+#line-11{
+    margin-left: 85px;
+}
+#p5{
+    margin-left: 94px;
+}
+#line-22{
+    margin-left: 210px;
+}
+#p6{
+    
+    margin-left: 215px;
+}
+#line-33{
+    
+    margin-left: 340px;
+}
+#p7{
+    
+    margin-left: 350px;
+}
+#line-44{
+    
+    margin-left: 450px;
+}
+#p8{
+    
+    margin-left: 490px;
+}
+#line-55{
+    
+    margin-left: 580px;
+}
+#p9{
+    
+    margin-left: 582px;
+}
+#line-66{
+    margin-left: 710px;
+}
+#p10{
+    margin-left: 720px;
+}
+#line-77{
+    margin-left: 820px;
+}
