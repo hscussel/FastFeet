@@ -32,7 +32,26 @@ h1{
 .blue-text{
     color: #28A9E1;
 }
-
+#logout{
+    width: 80px;
+    border: solid #2695c5;
+    background-color: transparent;
+    color: #2695c5;
+    margin-top: 2%;
+    margin-left: 94%;
+    font-size: 14px;
+    height: 30px;
+}
+#notifications{
+    width: 120px;
+    border: solid #2695c5;
+    background-color: transparent;
+    color: #2695c5;
+    margin-left: 85%;
+    margin-top: -10%;
+    font-size: 14px;
+    height: 30px;  
+}
 .circle{
     position: absolute;
     background-color: #373737;
@@ -412,4 +431,9 @@ button{
 }
 input:focus {
     outline: none;
+}
+#logout:hover{
+    border: none;
+    color: #fff;
+    background-color:#ED6464;
 }
