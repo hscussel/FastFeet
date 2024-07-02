@@ -34,7 +34,10 @@
             </nav>
             <div class="container-header">
                 <button id="logout">Sair</button>
-                
+                <button id="notifications">Notificações</button>
+                <div id='over-not'class="container-not">
+                    <p1 id="notifications-text">Sem <br>notificações</p1>
+                </div>
             </div>
         </div>
         <h1>Fast<span class="blue-text">FEET</span></h1>
@@ -72,7 +75,7 @@
         <div id="overlay" class="overlay">
             <div class="containter-cadastro">
                 <h3>oi</h3>
-                <img id="quit-icon" src="src\img\quit-icon-grey.webp">
+                <img id="quit-icon" src="src\img\quit-icon-grey.webp" onclick="confirmQuit()">
                 <h2>Cadastrando Destinatário</h2>
                 <form>
                     <div class="input-field-1">

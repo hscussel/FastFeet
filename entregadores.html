@@ -34,6 +34,10 @@
             </nav>
             <div class="container-header">
                 <button id="logout">Sair</button>
+                <button id="notifications">Notificações</button>
+                <div id='over-not'class="container-not">
+                    <p1 id="notifications-text">Sem <br>notificações</p1>
+                </div>
             </div>
         </div>
         <h1>Fast<span class="blue-text">FEET</span></h1>
@@ -63,12 +67,12 @@
             <p2 id="p9">Status</p2>
             <div class="line-db" id="line-6"></div>
         </div>
-        <p3>Sem entregadores cadastrados</p3>
+        <p3 id="sem-cadastro">Sem entregadores cadastrados</p3>
     </main>
     <div id="overlay" class="overlay">
         <div class="containter-cadastro">
             <h3>oi</h3>
-            <img id="quit-icon" src="src\img\quit-icon-grey.webp">
+            <img id="quit-icon" src="src\img\quit-icon-grey.webp" onclick="confirmQuit()">
             <h2>Cadastrando Entregador</h2>
             <form>
                 <div class="input-field-1">
@@ -115,6 +119,25 @@
                 <button type="submit">Cadastrar</button>
             </form>
         </div>
+    </div>
+    <div class="data-base-2">    
+        <p4 id="p10"></p4>
+        <div class="line-db-over" id="line-1"></div>
+        <p4 id="p11"></p4>
+        <div class="line-db-over" id="line-2"></div>
+        <p4 id="p12"></p4>
+        <div class="line-db-over" id="line-3"></div>
+        <p4 id="p13"></p4>
+        <div class="line-db-over" id="line-4"></div>
+        <p4 id="p14"></p4>
+        <div class="line-db-over" id="line-5"></div>
+        <p4 id="p14"></p4>
+        <div class="line-db-over" id="line-6"></div>
+        <div class="container-edit"></div>
+        <img id='edit'src="src\img\edit-icon-grey.png">
+        <div class="line-db-over" id="line-dif"></div>
+        <div class="container-remove"></div>
+        <img id="remove" src="src\img\remove-icon-red.png">
     </div>
     <script src="src\js\hrefAdmin.js"></script>
     <scprt src='src\js\cadastroEntregador.js'></scprt>

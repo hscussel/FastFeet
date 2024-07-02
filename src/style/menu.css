@@ -24,6 +24,34 @@ h1{
 .blue-text{
     color: #28A9E1;
 }
+#logout{
+    position: absolute;
+    width: 80px;
+    background-color: transparent;
+    color: #2695c5;
+    margin-top: 10%;
+    margin-left: 94%;
+    font-size: 14px;
+    height: 30px;
+}
+#notifications{
+    position: absolute;
+    width: 120px;
+    background-color: transparent;
+    color: #2695c5;
+    font-size: 14px;
+    height: 30px;
+    margin-top: 10%;
+    margin-left: 85%;
+}
+#notifications-text{
+    position: absolute;
+    display: none;
+    margin-left: 3.6%;
+    margin-top: 1.5%;
+    color: #373737;
+    text-align: center;
+}
 p1{
     font-size: 30px;
     font-weight: bold;
@@ -91,11 +119,33 @@ p2{
 #user{
     margin-left: 37%;
 }
-
+button{
+    width: 225px;
+    height: 39px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-left:22%;
+    margin-top: 10%;
+    background-color: #28A9E1;
+    border-radius: 5px;
+    color: #fff;
+    transition:margin-top 0.6  ease;
+}
 /* animations */ 
 
 .container-menu:hover{
     background-color: #076CB5;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
     font-weight: 600;
+}
+#logout:hover{
+    border: none;
+    color: #fff;
+    background-color:#ED6464;
+}
+#notifications:hover{
+    color: #fff;
+    background-color: #FC810E;
 }

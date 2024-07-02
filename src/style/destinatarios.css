@@ -34,7 +34,6 @@ h1{
 }
 #logout{
     width: 80px;
-    border: solid #2695c5;
     background-color: transparent;
     color: #2695c5;
     margin-top: 2%;
@@ -43,14 +42,32 @@ h1{
     height: 30px;
 }
 #notifications{
+    position: absolute;
     width: 120px;
-    border: solid #2695c5;
     background-color: transparent;
     color: #2695c5;
-    margin-left: 85%;
-    margin-top: -10%;
     font-size: 14px;
-    height: 30px;  
+    height: 30px;
+    margin-left: -14%;
+    margin-top: 2%;
+}
+#notifications-text{
+    position: absolute;
+    display: none;
+    margin-left: 3.6%;
+    margin-top: 1.5%;
+    color: #373737;
+    text-align: center;
+}
+.container-not{
+    width: 200px;
+    display: none;
+    background-color: #fff;
+    height: 100px;
+    margin-left: 82%;
+    border-radius: 5px;
+    margin-top: -1%;
+    border:#FC810E solid;
 }
 .circle{
     position: absolute;
@@ -306,6 +323,7 @@ p3{
     height: 20px;
     margin-left: 25.5%;
     margin-top: -1.6%;
+    cursor: pointer;
 }
 .containter-cadastro h2 {
     font-size: 25px;
@@ -436,4 +454,8 @@ input:focus {
     border: none;
     color: #fff;
     background-color:#ED6464;
+}
+#notifications:hover{
+    color: #fff;
+    background-color: #FC810E;
 }

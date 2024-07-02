@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = 'encomendas.html'; 
     });
 
-
     var recipientIcon = document.getElementById('recipient');
     recipientIcon.addEventListener('click', function() {
         window.location.href = 'destinatarios.html'; 
@@ -20,4 +19,19 @@ document.addEventListener('DOMContentLoaded', function() {
     usersIcon.addEventListener('click', function() {
         window.location.href = 'users.html'; 
     });
+
+    var logoutAdmin = document.getElementById('logout');
+    logoutAdmin.addEventListener('click', function() {
+        window.location.href = 'index.html'; 
+    });
+
+    var fastfeetLogo = document.getElementById('fastfeet');
+    fastfeetLogo.addEventListener('click', function() {
+        window.location.href = 'menu.html'; 
+    });
+
+    var userIcon = document.getElementById('user-icon');
+    userIcon.addEventListener('click', function(){
+        window.location.href='editProfile.html';
+    })
 });

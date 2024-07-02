@@ -34,13 +34,30 @@ h1{
 }
 #logout{
     width: 80px;
-    border: solid #2695c5;
     background-color: transparent;
     color: #2695c5;
     margin-top: 2%;
     margin-left: 94%;
     font-size: 14px;
     height: 30px;
+}
+#notifications{
+    position: absolute;
+    width: 120px;
+    background-color: transparent;
+    color: #2695c5;
+    font-size: 14px;
+    height: 30px;
+    margin-left: -14%;
+    margin-top: 2%;
+}
+#notifications-text{
+    position: absolute;
+    display: none;
+    margin-left: 3.6%;
+    margin-top: 1.5%;
+    color: #373737;
+    text-align: center;
 }
 .circle{
     position: absolute;
@@ -187,6 +204,7 @@ input::placeholder{
      margin-top: 16%;     
      margin-left: 9%;
      position: fixed;
+     z-index: 200;
 
 }
 #add{
@@ -311,6 +329,7 @@ p3{
     height: 20px;
     margin-left: 25.5%;
     margin-top: -1.6%;
+    cursor:pointer;
 }
 .containter-cadastro h2 {
     font-size: 25px;
@@ -332,14 +351,7 @@ label{
     margin-top: 3%;
     margin-left: 5%;
 }
-.input-field-3{
-    margin-left: 50%;
-    margin-top: -12.4%;
-}
-.input-field-4{
-    margin-left: 75%;
-    margin-top: -12.7%;
-}
+
 input{
     border-radius: 5px;
     border: none;
@@ -390,6 +402,88 @@ button{
     background-color: rgba(0, 0, 0, 0.8); 
     z-index: 1000; 
 }
+
+.data-base-2{
+    display: none;
+    width: 860px;
+     height: 55px; 
+     background: #D9D9D9; 
+     border-radius: 5px;     
+     position: fixed;
+     margin-left: 9%;
+     z-index: 100;
+     margin-top: 19.5%;
+
+}
+input[type='text']{
+    padding-top: 0.5cap;
+}
+p4{
+    color: black;
+    position: absolute;
+    text-align: center;
+    display: inline;
+    font-weight: medium;
+    margin-top: 14px;
+}
+.line-db-over{
+    position: absolute;
+    width: 32px; 
+    height: 0px; 
+    transform: rotate(90deg); 
+    transform-origin: 0 0; 
+    border: 1px #bebebe solid;
+    margin-top: 13px;
+}
+.container-edit{
+    width: 23px;
+    height: 21px;
+    background-color: #fff;
+    margin-left: 88.7%;
+    border-radius: 5px;
+    margin-top: 2.3%;
+}
+.container-remove{
+    width: 23px;
+    height: 21px;
+    background-color:#ffffff;
+    margin-left: 95.5%;
+    border-radius: 5px;
+    margin-top: -2.3%;
+}
+#dif{
+    background-color: #373737;
+}
+img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+   
+}
+#edit{
+    margin-left: 89.1%;
+    margin-top: -2.2%;
+}
+#remove{
+    margin-left: 95.75%;
+    margin-top: -2.4%;
+}
+#line-dif{
+    margin-top: -3%;
+    margin-left: 805px;
+
+}
+.input-field-3{
+    margin-left: 50%;
+    margin-top: -12.4%;
+}
+.input-field-4{
+    margin-left: 75%;
+    margin-top: -12.7%;
+}
+.input-field-3, .input-field-4, #plate, #vehicle, #category{
+    display: none;
+}
 /* animations */
 
 .contaier-delivery:hover{
@@ -414,4 +508,8 @@ input:focus {
     border: none;
     color: #fff;
     background-color:#ED6464;
+}
+#notifications:hover{
+    color: #fff;
+    background-color: #FC810E;
 }

@@ -6,17 +6,40 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scrollbar-width: none;
 }
-body {
-
+body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    background-color:#fff ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
+h2{
+    font-size: 40px;
+    z-index: 200;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.blue-text{
+    color: #28A9E1;
+}
+.background{
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    margin-top: 12%;
+    margin-left: 4%;
+    transform: rotate(-5deg);
+}
 .container-login{
     display: block;
     position: relative;
     width: 400px;
     height: 400px;
-    background-color: #28A9E1;
+    background: linear-gradient(135deg, #56CCF2, #2F80ED);
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     margin-left: 70%;

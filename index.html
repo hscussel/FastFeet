@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="src\style\index.css">
+    <link rel="stylesheet" href="src/style/index.css">
 </head>
 <body>
+    <h2>Fast<span class="blue-text">FEET</span></h2>
+    <img class="background" src="src\img\background-image.png">
     <div class="container-login">
         <h1> Bem-Vindo </h1>
         <p1>Preencha suas credenciais para efetuar login</p1>
-        <a form href="menu.html">
+        <form id="loginForm" action="menu.html">
             <div class="container-icon-cpf">
-                <img id="cpf-icon" src="src\img\cpf-icon-grey.png">
+                <img id="cpf-icon" src="src/img/cpf-icon-grey.png">
             </div>
             <div class="input-field-cpf">
-                <input type="cpf" name="cpf" id="cpf"
-                    placeholder="CPF">
+                <input type="text" name="cpf" id="cpf" placeholder="CPF">
             </div>
             <div class="container-icon-password">
-                <img id="password-icon" src="src\img\password-icon-grey.png">
+                <img id="password-icon" src="src/img/password-icon-grey.png">
             </div>
             <div class="input-field-password">
-                <input type="password" name="password" id="password"
-                    placeholder="Senha">
+                <input type="password" name="password" id="password" placeholder="Senha">
             </div>
-            <button>ENTRAR</button>
+            <button type="submit" id="loginButton">ENTRAR</button>
             <p2>Esqueci minha senha</p2>
         </form>
     </div>
+
+    <script src="src/js/login.js"></script>
 </body>
 </html>
