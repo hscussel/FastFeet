@@ -481,9 +481,6 @@ img{
     margin-left: 75%;
     margin-top: -12.7%;
 }
-.input-field-3, .input-field-4, #plate, #vehicle, #category{
-    display: none;
-}
 /* animations */
 
 .contaier-delivery:hover{
