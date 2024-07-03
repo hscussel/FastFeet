@@ -186,6 +186,14 @@ a {
     margin-top: 2%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
 }
+.user-icon-blue{
+    position: absolute;
+    width: 120px;
+    height: 130px;
+    margin-left: 12.5%;
+    margin-top: 5%;
+
+}
 p2 {
     position: absolute;
     margin-top: 26%;

@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="src\style\entregadorIndex.css">
+    <link rel="stylesheet" href="../public/src\style\entregadorIndex.css">
     <script async src="https://polyfill.io/v3/polifill.min.js?features=default"></script>
 </head>
 <body>
-    <div class="container-header">
-        <div class="user">
-            <div class="circle"></div>
-            <img id='user-icon' src="src\img\user_icon_white.png">
-            <div class="mini-circle"></div>
-            <p1>Nome + Sobrenome</p1>
+    <header>
+        <div class="nav-bar">
+            <nav class="container">
+                <div class="user">
+                    <div class="circle"></div>
+                    <img id='user-icon' src="../public/src\img\user_icon_white.png">
+                    <div class="mini-circle"></div>
+                </div>
+            <div class="container-header">
+                <button id="logout">Sair</button>
+                <button id="notifications">Notificações</button>
+            </div>
         </div>
-    <div class="bar">
-        <div class="container"></div>
-    </div>
-    <h1>Fast<span class="blue-text">FEET</span></h1>
+        <h1>Fast<span class="blue-text">FEET</span></h1>
+    </header>
     <main>
         <div class="icon-research">
-            <img id ='research-icon' src="src\img\icon-research.png">
+            <img id ='research-icon' src="../public/src\img\icon-research.png">
         </div>
         <input type="text" name="research" id="research"
         placeholder ="Pesquise por encomendas">
@@ -31,9 +35,7 @@
     </main>
     <div id="map"></div>
     <p3>Sem entregas pela sua região</p3>
-</header>
 </body>
-<script src="src\js\map.js"></script>
+<script src="../public/src\js\map.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWgCSgLXuMeWbF6VU6whDbTwfgEmTyvIE&callback=initMap" async defer></script>
-
 </html>

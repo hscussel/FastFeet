@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="src/style/encomendas.css">
+    <link rel="stylesheet" href="../public/src/style/encomendas.css">
 </head>
 <body>
     <header>
@@ -12,23 +12,23 @@
             <nav class="container">
                 <div class="user">
                     <div class="circle"></div>
-                    <img id='user-icon' src="src\img\user_icon_white.png">
+                    <img id='user-icon' src="../public/src\img\user_icon_white.png">
                     <div class="mini-circle"></div>
                 </div>
                 <div class="contaier-delivery" id = 'delivery-i'>
-                    <img id="delivery-icon" src="src\img\encomenda_icon_blue.png">
+                    <img id="delivery-icon" src="../public/src\img\encomenda_icon_blue.png">
                     
                 </div>
                 <div class="contaier-delivery" id="delivery-men">
-                    <img id="delivery-men-icon" src="src\img\delivery-men-icon-white.png">
+                    <img id="delivery-men-icon" src="../public/src\img\delivery-men-icon-white.png">
                     
                 </div>
                 <div class="contaier-delivery" id="recipient">
-                    <img id="recipient-icon" src='src\img\recipient-icon-white.png'>
+                    <img id="recipient-icon" src='../public/src\img\recipient-icon-white.png'>
                     
                 </div>
                 <div class="contaier-delivery" id="users">
-                    <img id="users-icon" src='src\img\add_user_white.png'>
+                    <img id="users-icon" src='../public/src\img\add_user_white.png'>
                     
                 </div>
             </nav>
@@ -47,13 +47,13 @@
             <a id="p1">Encomendas</a>
             </nav>
             <div class="icon-research">
-                <img id ='research-icon' src="src\img\icon-research.png">
+                <img id ='research-icon' src="../public/src\img\icon-research.png">
             </div>
         <input type="text" name="research" id="research"
         placeholder ="Pesquise por encomendas">
         <div class="data-base">    
             <button id="add">Adicionar Encomenda</button>
-            <img id="add-icon" src="src\img\add-icon.png.png">
+            <img id="add-icon" src="../public/src\img\add-icon.png.png">
             <p2 id="p4">Id</p2>
             <div class="line-db" id="line-1"></div>
             <p2 id="p5">Entregador</p2>
@@ -74,16 +74,22 @@
         <div id="overlay" class="overlay">
             <div class="containter-cadastro">
                 <h3>oi</h3>
-                <img id="quit-icon" src="src\img\quit-icon-grey.webp" onclick="confirmQuit()">
+                <img id="quit-icon" src="../public/src\img\quit-icon-grey.webp" onclick="confirmQuit()">
                 <h2>Cadastrando Encomenda</h2>
                 <form>
                     <div class="input-field-1">
                         <label for="entregador">Entregador</label><br>
-                        <select type="entregador" name="entregador" id="entregador"></select>
+                        <select type="entregador" name="entregador" id="entregador">
+                            <option value=""></option>
+                            <option value="A">Luiz Henrique da Silva</option>
+                        </select>
                     </div>
                     <div class="input-field" style="margin-bottom:3%">
                         <label for="entregador">Destinatário</label><br>
-                        <select name="entregador" id="entregador"></select>
+                        <select name="entregador" id="entregador">
+                            <option value=""></option>
+                            <option value="A">Henrique Scussel</option>
+                        </select>
                     </div>
                     <label for="items" style="margin-left: 5%;margin-top: 3%">Itens</label><br>
                     <div class="input-field" style="display:flex; margin-top: 0%; margin-right: 4rem;">
@@ -96,12 +102,11 @@
                         <input id="data" type="date" name="data"
                                 placeholder="Digite o CEP">
                     </div>
-                  
                     <button  type="submit">Cadastrar</button>
                 </form>
             </div>
     </main>
-    <script src="src\js\hrefAdmin.js"></script>
-    <script src="src\js\cadastrarAba.js"></script>
+    <script src="../public/src\js\hrefAdmin.js"></script>
+    <script src="../public/src\js\cadastrarAba.js"></script>
 </body>
 </html>
